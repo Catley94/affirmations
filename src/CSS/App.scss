@@ -1,3 +1,9 @@
+$desktop: 840px;
+@mixin desktop {
+  @media (min-width: #{$desktop}){
+      @content;
+  }
+}
 .App {
     text-align: center;
   }
@@ -15,33 +21,54 @@
   }
   /*Wrapper*/
   .wrapper{
-    
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 20% auto;
+    grid-template-areas:
+    "sentence"
+    "fadeIn";
     font-family: 'Raleway', sans-serif;
     margin: 100px auto;
     padding: 40px 40px;
     position: relative;
     width: 70%;
+    @include desktop {
+      grid-template-columns: 30% auto;
+      grid-template-rows: 1;
+      grid-template-areas:
+      "sentence fadeIn"
+    }
     /*Sentence*/
     .sentence {
+      grid-area: sentence;
+      justify-self: center;
      color: white;
      font-size: 30px;
      text-align: center;
      position: relative;
-     left: -340px;
+    // left: -340px;
+    @include desktop {
+     
+      
+    }
      
   /*FadeIn*/
   .fadeIn{
-    display: inline;
-    text-indent: 8px;
+    grid-area: fadeIn;
     position: absolute;
-    left: 800px;
+    top: 50px;
+    left: 75px;
+    @include desktop {
+      top: -50px;
+      left: 300px;
+      justify-self: center;
+      position: relative;
+    }
   }
   //Animation, add 1.5 seconds on for each nth-child and another 1.5 seconds for total.
     .fadeIn span{
     animation: fadeEffect 16.5s linear infinite 0s;
-
     color: #00abe9;
-    
     opacity: 0;
     overflow: hidden;
     position: absolute;

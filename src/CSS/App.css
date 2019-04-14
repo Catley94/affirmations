@@ -24,6 +24,13 @@
 
 /*Wrapper*/
 .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  -ms-grid-rows: 20% auto;
+      grid-template-rows: 20% auto;
+      grid-template-areas: "sentence" "fadeIn";
   font-family: 'Raleway', sans-serif;
   margin: 100px auto;
   padding: 40px 40px;
@@ -32,21 +39,47 @@
   /*Sentence*/
 }
 
+@media (min-width: 840px) {
+  .wrapper {
+    -ms-grid-columns: 30% auto;
+        grid-template-columns: 30% auto;
+    -ms-grid-rows: 1;
+        grid-template-rows: 1;
+        grid-template-areas: "sentence fadeIn";
+  }
+}
+
 .wrapper .sentence {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: sentence;
+  -ms-grid-column-align: center;
+      justify-self: center;
   color: white;
   font-size: 30px;
   text-align: center;
   position: relative;
-  left: -340px;
   /*FadeIn*/
   /*Pop Effect*/
 }
 
 .wrapper .sentence .fadeIn {
-  display: inline;
-  text-indent: 8px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: fadeIn;
   position: absolute;
-  left: 800px;
+  top: 50px;
+  left: 75px;
+}
+
+@media (min-width: 840px) {
+  .wrapper .sentence .fadeIn {
+    top: -50px;
+    left: 300px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    position: relative;
+  }
 }
 
 .wrapper .sentence .fadeIn span {

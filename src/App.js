@@ -18,7 +18,6 @@ class App extends Component {
         <header className="App-header">
         <h1>Empowering Affirmations</h1>
           <section className="wrapper">
-            
             <h2 className="sentence">Say to yourself:
               <div className="fadeIn">
                 <span>I</span>
