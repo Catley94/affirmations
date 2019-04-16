@@ -83,8 +83,8 @@
 }
 
 .wrapper .sentence .fadeIn span {
-  -webkit-animation: fadeEffect 16.5s linear infinite 0s;
-          animation: fadeEffect 16.5s linear infinite 0s;
+  -webkit-animation: fadeEffect 40.5s linear infinite 0s;
+          animation: fadeEffect 40.5s linear infinite 0s;
   color: #00abe9;
   opacity: 0;
   overflow: hidden;
@@ -94,21 +94,25 @@
 .wrapper .sentence .fadeIn span:nth-child(2) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
+  color: red;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(3) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
+  color: white;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(4) {
   -webkit-animation-delay: 4.5s;
           animation-delay: 4.5s;
+  color: red;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(5) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
+  color: white;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(6) {
@@ -139,6 +143,91 @@
 .wrapper .sentence .fadeIn span:nth-child(11) {
   -webkit-animation-delay: 15s;
           animation-delay: 15s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(12) {
+  -webkit-animation-delay: 16.5s;
+          animation-delay: 16.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(13) {
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(14) {
+  -webkit-animation-delay: 19.5s;
+          animation-delay: 19.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(15) {
+  -webkit-animation-delay: 21s;
+          animation-delay: 21s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(16) {
+  -webkit-animation-delay: 22.5s;
+          animation-delay: 22.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(17) {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(18) {
+  -webkit-animation-delay: 25.5s;
+          animation-delay: 25.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(19) {
+  -webkit-animation-delay: 27s;
+          animation-delay: 27s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(20) {
+  -webkit-animation-delay: 28.5s;
+          animation-delay: 28.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(21) {
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(22) {
+  -webkit-animation-delay: 31.5s;
+          animation-delay: 31.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(23) {
+  -webkit-animation-delay: 33s;
+          animation-delay: 33s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(24) {
+  -webkit-animation-delay: 25.5s;
+          animation-delay: 25.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(25) {
+  -webkit-animation-delay: 34.5s;
+          animation-delay: 34.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(26) {
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(27) {
+  -webkit-animation-delay: 37.5s;
+          animation-delay: 37.5s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(28) {
+  -webkit-animation-delay: 39s;
+          animation-delay: 39s;
 }
 
 .wrapper .sentence .popEffect {

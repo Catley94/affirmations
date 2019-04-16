@@ -31,6 +31,24 @@ class App extends Component {
                 <span>unique</span>
                 <span>skills</span>
                 <span></span>
+                <span>I</span>
+                <span>will</span>
+                <span>use</span>
+                <span>these</span>
+                <span>skills</span>
+                <span>effectively</span>
+                <span></span>
+                <span>I</span>
+                <span>look</span>
+                <span>at</span>
+                <span>all</span>
+                <span>situations</span>
+                <span>in</span>
+                <span>a</span>
+                <span>positive</span>
+                <span>light</span>
+                <span></span>
+
               </div>
             </h2>
           </section>
