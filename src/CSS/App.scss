@@ -67,7 +67,7 @@ $desktop: 840px;
   }
   //Animation, add 1.5 seconds on for each nth-child and another 1.5 seconds for total.
     .fadeIn span{
-    animation: fadeEffect 40.5s linear infinite 0s;
+    animation: fadeEffect 42s linear infinite 0s;
     color: #00abe9;
     opacity: 0;
     overflow: hidden;
@@ -75,22 +75,22 @@ $desktop: 840px;
     }
     .fadeIn span:nth-child(2){
   animation-delay: 1.5s;
-  color:red;
+  color:darken(#00abe9, 20%);
   
     }
     .fadeIn span:nth-child(3){
       animation-delay: 3s;
-      color: white;
+      color: #00abe9;
      
     }
     .fadeIn span:nth-child(4){
       animation-delay: 4.5s;
-      color: red;
+      color: lighten(#00abe9, 20%)
       
     }
     .fadeIn span:nth-child(5){
       animation-delay: 6s;
-      color: white;
+      color: #00abe9;
       
     }
     .fadeIn span:nth-child(6){
@@ -166,23 +166,23 @@ $desktop: 840px;
         
       }
       .fadeIn span:nth-child(24){
-        animation-delay: 25.5s;
-        
-      }
-      .fadeIn span:nth-child(25){
         animation-delay: 34.5s;
         
       }
-      .fadeIn span:nth-child(26){
+      .fadeIn span:nth-child(25){
         animation-delay: 36s;
         
       }
-      .fadeIn span:nth-child(27){
+      .fadeIn span:nth-child(26){
         animation-delay: 37.5s;
         
       }
-      .fadeIn span:nth-child(28){
+      .fadeIn span:nth-child(27){
         animation-delay: 39s;
+        
+      }
+      .fadeIn span:nth-child(28){
+        animation-delay: 40.5s;
         
       }
       
@@ -226,11 +226,9 @@ $desktop: 840px;
   /*Scale Animation*/
   @keyframes fadeEffect{
   0% { opacity: 0; }
-  5% { opacity: 0; transform: scale(0.1); }
-  10% { opacity: 1; transform: scale(2); }
-  25% { opacity: .1; transform: scale(2); }
-  30% { opacity: 0; transform: scale(0.1); }
-  80% { opacity: 0; }
+  8% { opacity: 0; transform: scale(1); }
+  10% { opacity: 1; transform: scale(3); }
+  11% { opacity: 0; transform: scale(0); }
   100% { opacity: 0; }
   }
   

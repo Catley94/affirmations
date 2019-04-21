@@ -6,12 +6,17 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      words: ["awesome", "cool", "fantastic", "incredible"]
+      words: ["I", "can", "do", "this", "[loading...]",
+              "I", "have", "many", "unique", "skills", "[loading...]",
+              "I", "will", "use", "these", "skills", "effectively", "[loading...]",
+              "I", "look", "at", "all", "situations", "in", "a", "positive", "light", "[loading...]"]
     }
   }
   
   render() {
-    
+    const words = this.state.words.map((word) => {
+      return <span key={word}>{word}</span>;
+     });
     
     return (
       <div className="App">
@@ -20,34 +25,7 @@ class App extends Component {
           <section className="wrapper">
             <h2 className="sentence">Say to yourself:
               <div className="fadeIn">
-                <span>I</span>
-                <span>can</span>
-                <span>do</span>
-                <span>this!</span>
-                <span></span>
-                <span>I</span>
-                <span>have</span>
-                <span>many</span>
-                <span>unique</span>
-                <span>skills</span>
-                <span></span>
-                <span>I</span>
-                <span>will</span>
-                <span>use</span>
-                <span>these</span>
-                <span>skills</span>
-                <span>effectively</span>
-                <span></span>
-                <span>I</span>
-                <span>look</span>
-                <span>at</span>
-                <span>all</span>
-                <span>situations</span>
-                <span>in</span>
-                <span>a</span>
-                <span>positive</span>
-                <span>light</span>
-                <span></span>
+                {words}
 
               </div>
             </h2>

@@ -83,8 +83,8 @@
 }
 
 .wrapper .sentence .fadeIn span {
-  -webkit-animation: fadeEffect 40.5s linear infinite 0s;
-          animation: fadeEffect 40.5s linear infinite 0s;
+  -webkit-animation: fadeEffect 42s linear infinite 0s;
+          animation: fadeEffect 42s linear infinite 0s;
   color: #00abe9;
   opacity: 0;
   overflow: hidden;
@@ -94,25 +94,25 @@
 .wrapper .sentence .fadeIn span:nth-child(2) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
-  color: red;
+  color: #006083;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(3) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  color: white;
+  color: #00abe9;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(4) {
   -webkit-animation-delay: 4.5s;
           animation-delay: 4.5s;
-  color: red;
+  color: #50d0ff;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(5) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  color: white;
+  color: #00abe9;
 }
 
 .wrapper .sentence .fadeIn span:nth-child(6) {
@@ -206,28 +206,28 @@
 }
 
 .wrapper .sentence .fadeIn span:nth-child(24) {
-  -webkit-animation-delay: 25.5s;
-          animation-delay: 25.5s;
-}
-
-.wrapper .sentence .fadeIn span:nth-child(25) {
   -webkit-animation-delay: 34.5s;
           animation-delay: 34.5s;
 }
 
-.wrapper .sentence .fadeIn span:nth-child(26) {
+.wrapper .sentence .fadeIn span:nth-child(25) {
   -webkit-animation-delay: 36s;
           animation-delay: 36s;
 }
 
-.wrapper .sentence .fadeIn span:nth-child(27) {
+.wrapper .sentence .fadeIn span:nth-child(26) {
   -webkit-animation-delay: 37.5s;
           animation-delay: 37.5s;
 }
 
-.wrapper .sentence .fadeIn span:nth-child(28) {
+.wrapper .sentence .fadeIn span:nth-child(27) {
   -webkit-animation-delay: 39s;
           animation-delay: 39s;
+}
+
+.wrapper .sentence .fadeIn span:nth-child(28) {
+  -webkit-animation-delay: 40.5s;
+          animation-delay: 40.5s;
 }
 
 .wrapper .sentence .popEffect {
@@ -274,28 +274,20 @@
   0% {
     opacity: 0;
   }
-  5% {
+  8% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   10% {
     opacity: 1;
-    -webkit-transform: scale(2);
-            transform: scale(2);
+    -webkit-transform: scale(3);
+            transform: scale(3);
   }
-  25% {
-    opacity: .1;
-    -webkit-transform: scale(2);
-            transform: scale(2);
-  }
-  30% {
+  11% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-  }
-  80% {
-    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   100% {
     opacity: 0;
@@ -305,28 +297,20 @@
   0% {
     opacity: 0;
   }
-  5% {
+  8% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   10% {
     opacity: 1;
-    -webkit-transform: scale(2);
-            transform: scale(2);
+    -webkit-transform: scale(3);
+            transform: scale(3);
   }
-  25% {
-    opacity: .1;
-    -webkit-transform: scale(2);
-            transform: scale(2);
-  }
-  30% {
+  11% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-  }
-  80% {
-    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   100% {
     opacity: 0;
