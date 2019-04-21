@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      words: ["I", "can", "do", "this", "[loading...]",
+      words: ["I", "am", "a", "positive", "person", "[loading...]",
               "I", "have", "many", "unique", "skills", "[loading...]",
               "I", "will", "use", "these", "skills", "effectively", "[loading...]",
               "I", "look", "at", "all", "situations", "in", "a", "positive", "light", "[loading...]"]
