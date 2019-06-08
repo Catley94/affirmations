@@ -1,0 +1,22 @@
+.Header {
+  padding: 20px;
+}
+
+.Header .linkTitles {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.Header > span {
+  margin: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+/*# sourceMappingURL=Header.css.map */
