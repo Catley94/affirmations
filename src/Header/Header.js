@@ -5,12 +5,12 @@ const Header = () => {
 
     return (
         <div className="Header">
-        <span className="linkTitles">
-        <Link to={'/'}>Affirmations</Link>
-        </span>
-        <span className="linkTitles">
-        <Link to={'/about'}>About</Link>
-        </span>
+            <span className="linkTitles">
+                <Link to={'/'}>Affirmations</Link>
+            </span>
+            <span className="linkTitles">
+                <Link to={'/about'}>About</Link>
+            </span>
         </div>
         
     )
