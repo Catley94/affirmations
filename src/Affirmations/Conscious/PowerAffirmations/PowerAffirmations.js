@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './PowerAffirmations.css';
+import anime from 'animejs/lib/anime.es.js';
 
 class PowerAffirmations extends Component {
     constructor(props) {
